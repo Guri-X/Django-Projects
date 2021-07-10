@@ -122,7 +122,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    "/home/guri/Django/Youtube_Downloader/Static",
+    BASE_DIR / "Static"
 ]
 
 # Default primary key field type
